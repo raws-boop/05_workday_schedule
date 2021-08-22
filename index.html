@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <!-- sets up header -->
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    
+    <!-- creates a bordered table -->
+      <table class="table table-bordered">
+        <tbody>
+          <!-- Creates the rows for each hour -->
+          <tr id="row9">
+            <th class="hour" scope="row">9am</th>
+            <td>
+              <input type="text" class="form-control" id="plan9" aria-describedby="plan for 9 am" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save9">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row10">
+            <th class="hour" scope="row">10am</th>
+            <td>
+              <input type="text" class="form-control" id="plan10" aria-describedby="plan for 10 am" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save10">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row11">
+            <th class="hour" scope="row">11am</th>
+            <td>
+              <input type="text" class="form-control" id="plan11" aria-describedby="plan for 11 am" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save11">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row12">
+            <th class="hour" scope="row">12pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan12" aria-describedby="plan for 12 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save12">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row1">
+            <th class="hour" scope="row">1pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan1" aria-describedby="plan for 1 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save1">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row2">
+            <th class="hour" scope="row">2pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan2" aria-describedby="plan for 2 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save2">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row3">
+            <th class="hour" scope="row">3pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan3" aria-describedby="plan for 3 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save3">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row4">
+            <th class="hour" scope="row">4pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan4" aria-describedby="plan for 4 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save4">Save</button>
+            </td>
+          </tr>
+
+          <tr id="row5">
+            <th class="hour" scope="row">5pm</th>
+            <td>
+              <input type="text" class="form-control" id="plan5" aria-describedby="plan for 5 pm" placeholder="Enter plan for hour">
+            </td>
+            <td>
+              <button type="submit" class= "btn btn-primary saveBtn" id="save5">Save</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
