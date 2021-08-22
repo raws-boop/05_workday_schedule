@@ -25,7 +25,7 @@ To use the app, simply open the link at the bottom of the readMe and type in a p
 Upon refreshing or reopening the app, your plan will be found right where you left it (as long as local storage was not cleared).
 
 
-![A screenshot of the app.](./assets/images/AppScreenshot.jpg)
+![A screenshot of the app.](./assets/images/AppScreenshot.png)
 
 ## Link to the App
-https://raws-boop.github.io/Homework5_WorkDayScheduler/
+https://raws-boop.github.io/05_workday_schedule/
